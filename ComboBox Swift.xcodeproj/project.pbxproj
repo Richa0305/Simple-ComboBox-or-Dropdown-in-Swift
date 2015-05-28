@@ -1,0 +1,428 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A3887A6D1B15F1BC0026CE8D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3887A6C1B15F1BC0026CE8D /* AppDelegate.swift */; };
+		A3887A6F1B15F1BC0026CE8D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3887A6E1B15F1BC0026CE8D /* ViewController.swift */; };
+		A3887A721B15F1BC0026CE8D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3887A701B15F1BC0026CE8D /* Main.storyboard */; };
+		A3887A741B15F1BC0026CE8D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3887A731B15F1BC0026CE8D /* Images.xcassets */; };
+		A3887A771B15F1BC0026CE8D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A3887A751B15F1BC0026CE8D /* LaunchScreen.xib */; };
+		A3887A831B15F1BC0026CE8D /* ComboBox_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3887A821B15F1BC0026CE8D /* ComboBox_SwiftTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A3887A7D1B15F1BC0026CE8D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A3887A5F1B15F1BC0026CE8D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A3887A661B15F1BC0026CE8D;
+			remoteInfo = "ComboBox Swift";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A3887A671B15F1BC0026CE8D /* ComboBox Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ComboBox Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3887A6B1B15F1BC0026CE8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3887A6C1B15F1BC0026CE8D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A3887A6E1B15F1BC0026CE8D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A3887A711B15F1BC0026CE8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A3887A731B15F1BC0026CE8D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A3887A761B15F1BC0026CE8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		A3887A7C1B15F1BC0026CE8D /* ComboBox SwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ComboBox SwiftTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3887A811B15F1BC0026CE8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3887A821B15F1BC0026CE8D /* ComboBox_SwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComboBox_SwiftTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A3887A641B15F1BC0026CE8D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3887A791B15F1BC0026CE8D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A3887A5E1B15F1BC0026CE8D = {
+			isa = PBXGroup;
+			children = (
+				A3887A691B15F1BC0026CE8D /* ComboBox Swift */,
+				A3887A7F1B15F1BC0026CE8D /* ComboBox SwiftTests */,
+				A3887A681B15F1BC0026CE8D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A3887A681B15F1BC0026CE8D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A3887A671B15F1BC0026CE8D /* ComboBox Swift.app */,
+				A3887A7C1B15F1BC0026CE8D /* ComboBox SwiftTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A3887A691B15F1BC0026CE8D /* ComboBox Swift */ = {
+			isa = PBXGroup;
+			children = (
+				A3887A6C1B15F1BC0026CE8D /* AppDelegate.swift */,
+				A3887A6E1B15F1BC0026CE8D /* ViewController.swift */,
+				A3887A701B15F1BC0026CE8D /* Main.storyboard */,
+				A3887A731B15F1BC0026CE8D /* Images.xcassets */,
+				A3887A751B15F1BC0026CE8D /* LaunchScreen.xib */,
+				A3887A6A1B15F1BC0026CE8D /* Supporting Files */,
+			);
+			path = "ComboBox Swift";
+			sourceTree = "<group>";
+		};
+		A3887A6A1B15F1BC0026CE8D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A3887A6B1B15F1BC0026CE8D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A3887A7F1B15F1BC0026CE8D /* ComboBox SwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				A3887A821B15F1BC0026CE8D /* ComboBox_SwiftTests.swift */,
+				A3887A801B15F1BC0026CE8D /* Supporting Files */,
+			);
+			path = "ComboBox SwiftTests";
+			sourceTree = "<group>";
+		};
+		A3887A801B15F1BC0026CE8D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A3887A811B15F1BC0026CE8D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A3887A661B15F1BC0026CE8D /* ComboBox Swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3887A861B15F1BD0026CE8D /* Build configuration list for PBXNativeTarget "ComboBox Swift" */;
+			buildPhases = (
+				A3887A631B15F1BC0026CE8D /* Sources */,
+				A3887A641B15F1BC0026CE8D /* Frameworks */,
+				A3887A651B15F1BC0026CE8D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ComboBox Swift";
+			productName = "ComboBox Swift";
+			productReference = A3887A671B15F1BC0026CE8D /* ComboBox Swift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A3887A7B1B15F1BC0026CE8D /* ComboBox SwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3887A891B15F1BD0026CE8D /* Build configuration list for PBXNativeTarget "ComboBox SwiftTests" */;
+			buildPhases = (
+				A3887A781B15F1BC0026CE8D /* Sources */,
+				A3887A791B15F1BC0026CE8D /* Frameworks */,
+				A3887A7A1B15F1BC0026CE8D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A3887A7E1B15F1BC0026CE8D /* PBXTargetDependency */,
+			);
+			name = "ComboBox SwiftTests";
+			productName = "ComboBox SwiftTests";
+			productReference = A3887A7C1B15F1BC0026CE8D /* ComboBox SwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A3887A5F1B15F1BC0026CE8D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = IBM;
+				TargetAttributes = {
+					A3887A661B15F1BC0026CE8D = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					A3887A7B1B15F1BC0026CE8D = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = A3887A661B15F1BC0026CE8D;
+					};
+				};
+			};
+			buildConfigurationList = A3887A621B15F1BC0026CE8D /* Build configuration list for PBXProject "ComboBox Swift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A3887A5E1B15F1BC0026CE8D;
+			productRefGroup = A3887A681B15F1BC0026CE8D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A3887A661B15F1BC0026CE8D /* ComboBox Swift */,
+				A3887A7B1B15F1BC0026CE8D /* ComboBox SwiftTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A3887A651B15F1BC0026CE8D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3887A721B15F1BC0026CE8D /* Main.storyboard in Resources */,
+				A3887A771B15F1BC0026CE8D /* LaunchScreen.xib in Resources */,
+				A3887A741B15F1BC0026CE8D /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3887A7A1B15F1BC0026CE8D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A3887A631B15F1BC0026CE8D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3887A6F1B15F1BC0026CE8D /* ViewController.swift in Sources */,
+				A3887A6D1B15F1BC0026CE8D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3887A781B15F1BC0026CE8D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3887A831B15F1BC0026CE8D /* ComboBox_SwiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A3887A7E1B15F1BC0026CE8D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A3887A661B15F1BC0026CE8D /* ComboBox Swift */;
+			targetProxy = A3887A7D1B15F1BC0026CE8D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A3887A701B15F1BC0026CE8D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A3887A711B15F1BC0026CE8D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A3887A751B15F1BC0026CE8D /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A3887A761B15F1BC0026CE8D /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A3887A841B15F1BD0026CE8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A3887A851B15F1BD0026CE8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A3887A871B15F1BD0026CE8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "ComboBox Swift/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A3887A881B15F1BD0026CE8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "ComboBox Swift/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A3887A8A1B15F1BD0026CE8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ComboBox SwiftTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ComboBox Swift.app/ComboBox Swift";
+			};
+			name = Debug;
+		};
+		A3887A8B1B15F1BD0026CE8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ComboBox SwiftTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ComboBox Swift.app/ComboBox Swift";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A3887A621B15F1BC0026CE8D /* Build configuration list for PBXProject "ComboBox Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3887A841B15F1BD0026CE8D /* Debug */,
+				A3887A851B15F1BD0026CE8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3887A861B15F1BD0026CE8D /* Build configuration list for PBXNativeTarget "ComboBox Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3887A871B15F1BD0026CE8D /* Debug */,
+				A3887A881B15F1BD0026CE8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3887A891B15F1BD0026CE8D /* Build configuration list for PBXNativeTarget "ComboBox SwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3887A8A1B15F1BD0026CE8D /* Debug */,
+				A3887A8B1B15F1BD0026CE8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A3887A5F1B15F1BC0026CE8D /* Project object */;
+}
